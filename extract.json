@@ -1,0 +1,17 @@
+{
+  "id": 12345,
+  "prenom": "Jean",
+  "nom": "Dupont",
+  "email": "jean.dupont@example.com",
+  "telephone": "+33612345678",
+  "adresse": {
+    "rue": "12 rue des Fleurs",
+    "ville": "Nice",
+    "code_postal": "06000",
+    "pays": "France"
+  },
+  "date_naissance": "1985-04-12",
+  "profession": "Ingénieur DevOps",
+  "entreprise": "n8 solutions",
+  "actif": true
+}

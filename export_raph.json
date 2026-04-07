@@ -1,0 +1,521 @@
+{
+  "meta": {
+    "folder_id": "484dda2f-4d5e-4942-985a-e62ca28c9618",
+    "folder_name": "test du 9-12-2025",
+    "exported_at": "2026-04-07T09:47:46.668Z",
+    "version": "2.0"
+  },
+  "persons": {
+    "buyers": [
+      {
+        "nom": "TORISAEN",
+        "prenom": "EDWIN",
+        "adresse": "66 RUE DU BON CONSEIL",
+        "code_postal": "7181",
+        "ville": "ARQUENNES",
+        "pays": "Belgique",
+        "telephone": "null",
+        "email": null
+      }
+    ],
+    "sellers": [
+      {
+        "nom": "DUPRONT",
+        "prenom": "PHILIPPE",
+        "adresse": "265 CHEMIN DE L'ECHELLE",
+        "code_postal": "13100",
+        "ville": "AIX EN PROVENCE",
+        "pays": "France",
+        "telephone": "null",
+        "email": null
+      }
+    ]
+  },
+  "identity": {
+    "nom": "PILLET",
+    "prenom": "Felix Francois Jean Marie",
+    "date_naissance": "1985-07-23",
+    "lieu_naissance": "PLOEMEUR",
+    "nationalite": "Française"
+  },
+  "address_proof": {
+    "nom": "BRUSSET",
+    "prenom": "STÉPHANIE",
+    "adresse": "CHEMIN DE LA MAISONNETTE",
+    "code_postal": "05300",
+    "ville": "LARAGNE MONTÉGLIN",
+    "pays": "France",
+    "document_date": "2025-10-02",
+    "is_valid_under_3_months": false
+  },
+  "bateau": {
+    "win": null,
+    "immatriculation": "TL E60115",
+    "port_attache": "Toulon",
+    "nom_bateau": "KARIBU",
+    "marque_bateau": "HINTERHOELLER",
+    "modele_bateau": "NONSUCH 30",
+    "annee_construction": 1986,
+    "marque_moteur": "MIDIF",
+    "modele_moteur": "MD 1350",
+    "type_moteur": null,
+    "puissance_cv": 5,
+    "puissance_kw": 22.81
+  },
+  "transaction": {
+    "date_signature": null,
+    "lieu_signature": null,
+    "nb_signatures": null
+  },
+  "titre_navigation": {
+    "pays_immatriculation": null,
+    "win": null,
+    "immatriculation": null,
+    "port_attache": null,
+    "nom_bateau": null,
+    "marque_bateau": null,
+    "modele_bateau": null,
+    "annee_construction": null,
+    "date_enregistrement": null,
+    "marque_moteur": null,
+    "modele_moteur": null,
+    "puissance_cv": null,
+    "puissance_kw": null,
+    "type_moteur": null,
+    "puissance_admin_ou_fiscale": null
+  },
+  "fields_flat": [
+    {
+      "key": "address_proof.document_date",
+      "value": "2025-10-02",
+      "confidence": 0.7808373567447283,
+      "status": "validated"
+    },
+    {
+      "key": "address_proof.pays",
+      "value": "France",
+      "confidence": 0.9061837687897496,
+      "status": "validated"
+    },
+    {
+      "key": "address_proof.ville",
+      "value": "LARAGNE MONTÉGLIN",
+      "confidence": 0.6868830054449193,
+      "status": "validated"
+    },
+    {
+      "key": "address_proof.code_postal",
+      "value": "05300",
+      "confidence": 0.8805297120880384,
+      "status": "validated"
+    },
+    {
+      "key": "address_proof.adresse",
+      "value": "CHEMIN DE LA MAISONNETTE",
+      "confidence": 0.680568256498816,
+      "status": "validated"
+    },
+    {
+      "key": "address_proof.prenom",
+      "value": "STÉPHANIE",
+      "confidence": 0.6768426511382755,
+      "status": "validated"
+    },
+    {
+      "key": "address_proof.nom",
+      "value": "BRUSSET",
+      "confidence": 0.723877799394186,
+      "status": "validated"
+    },
+    {
+      "key": "identity.date_expiration",
+      "value": "2023-09-25",
+      "confidence": 0.9266665065443966,
+      "status": "validated"
+    },
+    {
+      "key": "identity.nationalite",
+      "value": "Française",
+      "confidence": 0.8000714069576683,
+      "status": "validated"
+    },
+    {
+      "key": "identity.lieu_naissance",
+      "value": "PLOEMEUR",
+      "confidence": 0.8812340472485297,
+      "status": "validated"
+    },
+    {
+      "key": "identity.date_naissance",
+      "value": "1985-07-23",
+      "confidence": 0.9737863458045782,
+      "status": "validated"
+    },
+    {
+      "key": "identity.prenom",
+      "value": "Félix, François, Jean, Marie",
+      "confidence": 0.8444428407808539,
+      "status": "validated"
+    },
+    {
+      "key": "identity.nom",
+      "value": "PILLET",
+      "confidence": 0.9655193848295422,
+      "status": "validated"
+    },
+    {
+      "key": "nb_signatures",
+      "value": "2",
+      "confidence": 0.7367263637280828,
+      "status": "pending"
+    },
+    {
+      "key": "lieu_signature",
+      "value": "Martigues",
+      "confidence": 0.779129661262024,
+      "status": "validated"
+    },
+    {
+      "key": "date_signature",
+      "value": "2025-10-18",
+      "confidence": 0.8360735761783143,
+      "status": "validated"
+    },
+    {
+      "key": "bateau.type_moteur",
+      "value": "null",
+      "confidence": 0.7211543895958178,
+      "status": "pending"
+    },
+    {
+      "key": "bateau.puissance_kw",
+      "value": "22.81",
+      "confidence": 0.9482381034551559,
+      "status": "validated"
+    },
+    {
+      "key": "bateau.puissance_cv",
+      "value": "5",
+      "confidence": 0.844557326392612,
+      "status": "validated"
+    },
+    {
+      "key": "bateau.modele_moteur",
+      "value": "MD 1350",
+      "confidence": 0.680544618734366,
+      "status": "validated"
+    },
+    {
+      "key": "bateau.marque_moteur",
+      "value": "MIDIF",
+      "confidence": 0.9523254605223048,
+      "status": "validated"
+    },
+    {
+      "key": "bateau.annee_construction",
+      "value": "1986",
+      "confidence": 0.7827005680151516,
+      "status": "validated"
+    },
+    {
+      "key": "bateau.modele_bateau",
+      "value": "NONSUCH 30",
+      "confidence": 0.8116921128428111,
+      "status": "validated"
+    },
+    {
+      "key": "bateau.marque_bateau",
+      "value": "HINTERHOELLER",
+      "confidence": 0.8199847201443358,
+      "status": "validated"
+    },
+    {
+      "key": "bateau.nom_bateau",
+      "value": "KARIBU",
+      "confidence": 0.9432102905232858,
+      "status": "validated"
+    },
+    {
+      "key": "bateau.port_attache",
+      "value": "Toulon",
+      "confidence": 0.7103949988449224,
+      "status": "validated"
+    },
+    {
+      "key": "bateau.immatriculation",
+      "value": "TL E60115",
+      "confidence": 0.867585252008702,
+      "status": "validated"
+    },
+    {
+      "key": "bateau.win",
+      "value": "null",
+      "confidence": 0.8256946216172834,
+      "status": "validated"
+    },
+    {
+      "key": "acheteurs_0.email",
+      "value": "null",
+      "confidence": 0.9700970346153608,
+      "status": "validated"
+    },
+    {
+      "key": "acheteurs_0.telephone",
+      "value": "null",
+      "confidence": 0.7018751276982942,
+      "status": "pending"
+    },
+    {
+      "key": "acheteurs_0.pays",
+      "value": "Belgique",
+      "confidence": 0.976728230416577,
+      "status": "validated"
+    },
+    {
+      "key": "acheteurs_0.ville",
+      "value": "ARQUENNES",
+      "confidence": 0.76137823122488,
+      "status": "validated"
+    },
+    {
+      "key": "acheteurs_0.code_postal",
+      "value": "7181",
+      "confidence": 0.7397588563714689,
+      "status": "pending"
+    },
+    {
+      "key": "acheteurs_0.adresse",
+      "value": "66 RUE DU BON CONSEIL",
+      "confidence": 0.7484991732055714,
+      "status": "pending"
+    },
+    {
+      "key": "acheteurs_0.prenom",
+      "value": "EDWIN",
+      "confidence": 0.669714733716583,
+      "status": "pending"
+    },
+    {
+      "key": "acheteurs_0.nom",
+      "value": "TORISAEN",
+      "confidence": 0.7814728758793099,
+      "status": "validated"
+    },
+    {
+      "key": "vendeurs_0.email",
+      "value": "null",
+      "confidence": 0.8283856082346162,
+      "status": "validated"
+    },
+    {
+      "key": "vendeurs_0.telephone",
+      "value": "null",
+      "confidence": 0.8383240127753155,
+      "status": "validated"
+    },
+    {
+      "key": "vendeurs_0.pays",
+      "value": "France",
+      "confidence": 0.89894978078483,
+      "status": "validated"
+    },
+    {
+      "key": "vendeurs_0.ville",
+      "value": "AIX EN PROVENCE",
+      "confidence": 0.8669547210718478,
+      "status": "validated"
+    },
+    {
+      "key": "vendeurs_0.code_postal",
+      "value": "13100",
+      "confidence": 0.9778535251541104,
+      "status": "validated"
+    },
+    {
+      "key": "vendeurs_0.adresse",
+      "value": "265 CHEMIN DE L'ECHELLE",
+      "confidence": 0.92915088853134,
+      "status": "validated"
+    },
+    {
+      "key": "vendeurs_0.prenom",
+      "value": "PHILIPPE",
+      "confidence": 0.7641144716960346,
+      "status": "validated"
+    },
+    {
+      "key": "vendeurs_0.nom",
+      "value": "DUPRONT",
+      "confidence": 0.917847551905629,
+      "status": "validated"
+    },
+    {
+      "key": "titre_navigation.properties.puissance_admin_ou_fiscale",
+      "value": "administratifs",
+      "confidence": 0.8665151070972069,
+      "status": "validated"
+    },
+    {
+      "key": "titre_navigation.properties.modele_moteur",
+      "value": "4JH4-THB",
+      "confidence": 0.7996868451116801,
+      "status": "validated"
+    },
+    {
+      "key": "titre_navigation.properties.marque_moteur",
+      "value": "YANMAR",
+      "confidence": 0.8731701586360556,
+      "status": "validated"
+    },
+    {
+      "key": "titre_navigation.properties.puissance_cv",
+      "value": "80.96",
+      "confidence": 0.9984160834936062,
+      "status": "validated"
+    },
+    {
+      "key": "titre_navigation.properties.pays_immatriculation",
+      "value": "FRANCE",
+      "confidence": 0.8934790443850531,
+      "status": "validated"
+    },
+    {
+      "key": "address_proof.name",
+      "value": "response",
+      "confidence": 0.915385581648744,
+      "status": "validated"
+    },
+    {
+      "key": "titre_navigation.properties.modele_bateau",
+      "value": "54.7-0",
+      "confidence": 0.7752416224163354,
+      "status": "validated"
+    },
+    {
+      "key": "address_proof.properties.document_date",
+      "value": "2025-10-02",
+      "confidence": 0.8471966953719139,
+      "status": "validated"
+    },
+    {
+      "key": "titre_navigation.properties.marque_bateau",
+      "value": "GRAND SOLEIL",
+      "confidence": 0.7527909805589011,
+      "status": "validated"
+    },
+    {
+      "key": "address_proof.properties.pays",
+      "value": "France",
+      "confidence": 0.9737631587938762,
+      "status": "validated"
+    },
+    {
+      "key": "titre_navigation.properties.annee_construction",
+      "value": "2009",
+      "confidence": 0.8066641806033061,
+      "status": "validated"
+    },
+    {
+      "key": "address_proof.properties.ville",
+      "value": "LARAGNE MONTÉGLIN",
+      "confidence": 0.7678952643187796,
+      "status": "validated"
+    },
+    {
+      "key": "titre_navigation.properties.date_enregistrement",
+      "value": "2016-03-24",
+      "confidence": 0.6596501778623997,
+      "status": "pending"
+    },
+    {
+      "key": "titre_navigation.properties.immatriculation",
+      "value": "F39512",
+      "confidence": 0.9466111443030352,
+      "status": "validated"
+    },
+    {
+      "key": "address_proof.properties.code_postal",
+      "value": "05300",
+      "confidence": 0.7653305204423143,
+      "status": "validated"
+    },
+    {
+      "key": "address_proof.properties.adresse",
+      "value": "CHEMIN DE LA MAISONNETTE",
+      "confidence": 0.6839280881389143,
+      "status": "validated"
+    },
+    {
+      "key": "address_proof.properties.prenom",
+      "value": "STÉPHANIE",
+      "confidence": 0.7002233842257153,
+      "status": "validated"
+    },
+    {
+      "key": "titre_navigation.properties.port_attache",
+      "value": "LORIENT BUREAU",
+      "confidence": 0.9803119611580109,
+      "status": "validated"
+    },
+    {
+      "key": "address_proof.properties.nom",
+      "value": "BRUSSET",
+      "confidence": 0.8559245000599535,
+      "status": "validated"
+    },
+    {
+      "key": "titre_navigation.properties.nom_bateau",
+      "value": "HAPPY",
+      "confidence": 0.725880936842371,
+      "status": "pending"
+    },
+    {
+      "key": "address_proof.type",
+      "value": "object",
+      "confidence": 0.967927405963927,
+      "status": "validated"
+    },
+    {
+      "key": "titre_navigation.type",
+      "value": "object",
+      "confidence": 0.6637812073683907,
+      "status": "pending"
+    },
+    {
+      "key": "identity.date_expiration",
+      "value": "2023-09-25",
+      "confidence": 0.8214389706408107,
+      "status": "validated"
+    },
+    {
+      "key": "identity.nationalite",
+      "value": "Française",
+      "confidence": 0.791400972656265,
+      "status": "validated"
+    },
+    {
+      "key": "identity.lieu_naissance",
+      "value": "PLOEMEUR",
+      "confidence": 0.7069128472358334,
+      "status": "validated"
+    },
+    {
+      "key": "identity.date_naissance",
+      "value": "1985-07-23",
+      "confidence": 0.9116649218223614,
+      "status": "validated"
+    },
+    {
+      "key": "identity.prenom",
+      "value": "Felix Francois Jean Marie",
+      "confidence": 0.8032535358171036,
+      "status": "validated"
+    },
+    {
+      "key": "identity.nom",
+      "value": "PILLET",
+      "confidence": 0.8958655627062936,
+      "status": "validated"
+    }
+  ]
+}
