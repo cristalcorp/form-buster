@@ -1,7 +1,7 @@
 import fitz
 from pypdf import PdfReader
 
-def read_pdf_accro(pdf_file):
+def read_pdf_acro(pdf_file):
     reader = PdfReader(pdf_file)
 
     fields = reader.get_fields()
